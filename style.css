@@ -10,3 +10,7 @@
 .trybewarts-header-title {
   justify-content: center;
 }
+
+#evaluation-form {
+  flex-direction: column;
+}
