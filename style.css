@@ -10,6 +10,7 @@
 
 main {
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .trybewarts-header-title {
@@ -20,10 +21,9 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+  background-color: red;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
-  right: 500 px;
-  background-color: red;
 }
