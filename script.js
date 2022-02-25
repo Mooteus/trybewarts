@@ -4,7 +4,7 @@ const loginClick = document.getElementById('login');
 loginClick.addEventListener('click', () => {
   const loginText = document.getElementById('email').value;
   const loginPass = document.getElementById('password').value;
-  console.log(loginText);
+
   if (loginText !== 'tryber@teste.com' || loginPass !== '123456') {
     alert('Email ou senha inválidos.');
   } else {
