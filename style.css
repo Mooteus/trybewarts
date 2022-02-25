@@ -7,18 +7,15 @@
   display: flex;
 }
 
-<<<<<<< HEAD
 main {
   display: flex;
 }
 
-form{
+form {
   display: flex;
-  width: 675px
+  width: 675px;
 }
 
-
-=======
 .trybewarts-header-title {
   justify-content: center;
 }
@@ -26,4 +23,3 @@ form{
 #evaluation-form {
   flex-direction: column;
 }
->>>>>>> 0d12f1fb81e71c20fc183b19ad0466f854d4dd7f
