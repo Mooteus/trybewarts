@@ -11,3 +11,10 @@ loginClick.addEventListener('click', () => {
     alert('Olá, Tryber!');
   }
 });
+
+// Count textarea characters limit
+const countTextArea = document.getElementById('textarea');
+countTextArea.addEventListener('input', () => {
+  const counter = document.getElementById('counter');
+  counter.innerText = 500 - countTextArea.value.length;
+});
