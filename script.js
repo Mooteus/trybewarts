@@ -18,3 +18,14 @@ countTextArea.addEventListener('input', () => {
   const counter = document.getElementById('counter');
   counter.innerText = 500 - countTextArea.value.length;
 });
+
+// enable | disable button
+const buttonCheck = document.getElementById('submit-btn');
+const agreement = document.getElementById('agreement');
+agreement.addEventListener('change', () => {
+  if (agreement.checked) {
+    buttonCheck.disabled = false;
+  } else {
+    buttonCheck.disabled = true;
+  }
+});
