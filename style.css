@@ -21,9 +21,21 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
-  background-color: red;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#div-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-family {
+  display: flex;
+}
+
+#label-content {
+  display: flex;
 }
