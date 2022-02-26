@@ -17,6 +17,7 @@ body {
 }
 
 .trybewarts-login {
+  display: flex;
   height: 20px;
   margin-top: 2%;
 }
