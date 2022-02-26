@@ -26,3 +26,11 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#label-family {
+  display: flex;
+}
+
+#label-content {
+  display: flex;
+}
