@@ -27,6 +27,11 @@ main {
   height: 500px;
 }
 
+#div-family {
+  display: flex;
+  flex-direction: column;
+}
+
 #label-family {
   display: flex;
 }
