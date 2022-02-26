@@ -37,7 +37,7 @@
           <option id="corvinode-house" text=" " value="Corvinode">Corvinode</option>
           <option id="pytherina-house" text=" " value="Pytherina">Pytherina</option>
         </select>
-      </div>
+      </div>   
 
       <hr>
   
@@ -119,11 +119,16 @@
         <input type="radio" name="rate" value="10" id="rate-10">
         <label for="rate-10">10</label>
       </div>
-      <textarea name="" id="textarea" maxlength="500"></textarea>
-      <p id="counter">500</p>
+
+      <label class="textarea" for="textarea">Deixe seu comentário:<textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea></label>
+      <div class="container-agreement">
+        <label id="label-infos" for="agreement">Você concorda com o uso das informações acima<label>
+        <input type="checkbox" name="" id="agreement">
+      </div>
+       <button id="submit-btn" type="submit" disabled="disabled">Enviar</button>
+
     </form>
-  
-    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo da escola TrybeWarts">
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo da escola TrybeWarts">
   </main>
   <footer>
     <p>Direitos reservados à Trybewarts©</p>
